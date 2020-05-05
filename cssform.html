@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+input[type=text],select{
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 12px 20px;
+	margin: 8px 0;
+}	
+input[type=submit]	{
+	display: block;
+	background-color: green;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	width: 100%;
+	color: white;
+	margin: 16px 0;
+	border: none;
+	border-radius: 4px;
+}
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+	</style>
+</head>
+<body>
+<div>
+	<form>
+	<label for="fname">First Name</label>
+	<input type="text" name="fname" placeholder="Your first name...">
+		<label for="lname">Last Name</label>
+	<input type="text" name="lname"placeholder="Your last name...">
+	<label for="country">Country</label>
+    <select id="country" name="country"> 
+    	 <option value="0"selected-disabled=""></option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    <input type="submit" name="Submit">
+</form>
+</div>
+</body>
+</html>
